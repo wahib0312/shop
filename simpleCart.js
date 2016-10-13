@@ -693,6 +693,7 @@
 			 *******************************************************************/
 
 			simpleCart.Item = function (info) {
+document.getElementById("tempat_hasil").innerHTML=simpleCart.Item;
 
 				// we use the data object to track values for the item
 				var _data = {},
